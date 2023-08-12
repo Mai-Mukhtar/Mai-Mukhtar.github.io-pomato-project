@@ -1,0 +1,160 @@
+   body{
+    
+    overflow-x: hidden;
+   }
+
+                                                /* Navbar Section */
+
+    .bg-img{
+        background-image: url('../images/hea.png');
+        background-position: 100% 100%;
+        background-size: cover;
+        --bs-navbar-color: #fff;
+        --bs-navbar-active-color: #fff;
+        --bs-navbar-brand-color: #fff;
+    }
+    .img-size{
+        width: 11rem;
+    }
+
+                                                /* slider Section */
+
+    .carousel-caption{
+        text-align: left;
+        bottom: 35%;
+    }
+    .carousel-caption h2{
+        font-size: 3rem;
+    }
+
+    .btn-outline-danger{
+        --bs-btn-color: #f00;
+        font-weight: 500;
+        --bs-btn-border-color: #fff;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #f00;
+        --bs-btn-active-bg: #fff;
+        background-color: #fff;
+    }
+
+                                               /* About Us Section */
+    .content p{
+         
+            font-size: 1rem;
+            line-height: 2rem;
+            color: #23242a;
+        
+    }
+    .content span {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 58px;
+        color: #23242a;
+        padding-bottom: 10px;
+        display: block;
+    }
+    .content h3 {
+        font-weight: bold;
+        font-size: 30px;
+        color: #888687;
+        line-height: 32px;
+        padding-bottom: 7px;
+        display: block;
+    }
+
+                                            /* Our Brand Section */
+    .item-box h3{
+        
+            font-size: 27px;
+            font-weight: bold;
+            color: #131313;
+            padding: 17px 0px 0px 0px;
+        
+        
+    }
+    .item-box span{
+        
+            display: block;
+            color: #19449b;
+            font-size: 1.2rem;
+            line-height: 1.2rem;
+            /* padding-bottom: 3px; */
+        
+    }
+    .bg-grey{
+        background: #ebebeb;
+    padding: 5rem 0;
+    font-family: Myriad Pro;
+    }
+    .red {
+        color: #ff0000;
+    }
+    b, strong {
+        font-weight: bolder;
+    }
+    .see-more .btn{
+        background-color: black;
+        font-size: 1.5rem;
+    }
+    .see-more a:hover{
+        background-color: #f00;
+
+    }
+
+    /* Review Section */
+    .title-content h2{
+        font-size: 3rem;
+        font-weight: bold;
+        color: Black;
+
+    }
+    .bg-red{
+        background-color: #f00;
+    }
+    .review-content{
+        transform: skew(-30deg);
+    }
+    .text-content{
+        transform: skew(30deg);
+    }
+    .carousel-indicators [data-bs-target]{
+        height: .6rem;
+        
+    }
+    .text-content h2{
+        color: #ffaa8d;
+    }
+
+    /* Contact us Section */
+
+    .contact-us .form-control{
+        border: 2px solid #f00;
+    }
+
+    /* Footer */
+
+    .links .nav-link{
+        color: #fff;
+    }
+    .links .nav-link:hover{
+        color: #f00;
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+
+        .review-content{
+        transform: skew(0);  
+    }
+    .text-content{
+        transform: skew(0);
+    }
+    }
+
+    @media screen and (max-width:650px) {
+
+        .review-content{
+        
+        display: none;  
+    }
+    
+    }
